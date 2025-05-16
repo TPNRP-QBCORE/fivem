@@ -1,4 +1,4 @@
-import type DEFAULT_LOCALE from 'assets/languages/locale-en.json';
+import type DEFAULT_LOCALE from 'assets/languages/locale-vi.json';
 
 export type LocaleKey = keyof typeof DEFAULT_LOCALE;
 
