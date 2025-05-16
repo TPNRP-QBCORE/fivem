@@ -31,7 +31,7 @@ public:
 
 	bool EnhancedHostSupport = false;
 
-	bool OneSyncEnabled = false;
+	bool OneSyncEnabled = true;
 
 	bool OneSyncBigIdEnabled = false;
 

@@ -16,7 +16,8 @@ namespace fx
 {
 bool IsBigMode()
 {
-	return g_bigMode;
+	// enforce: big mode 
+	return true;
 }
 
 bool IsLengthHack()
@@ -26,12 +27,7 @@ bool IsLengthHack()
 
 bool IsOneSync()
 {
-	if (!g_onesync)
-	{
-		return false;
-	}
-
-	return g_onesync();
+	return true; // Always enable OneSync
 }
 
 bool IsOneSyncPopulation()
